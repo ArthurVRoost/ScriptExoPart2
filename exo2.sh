@@ -1,6 +1,7 @@
 #!/bin/bash
-
-if [ -f mon_fichier.txt ]
+echo "donnez un fichier"
+read fichier
+if [ -f $fichier ]
 then
     echo "Le fichier existe."
 else
